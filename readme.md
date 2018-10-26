@@ -10,8 +10,8 @@ This project contains some first steps in using the existing hardware.
 
 #include <WiFi.h>
 
-const char *ssid = "FuJo-Orbi";
-const char *password = "#HUE7zPN";
+const char *ssid = "FuJo-xxxx";
+const char *password = "xxxxx";
 
 SSD1306 display(0x3c, 5, 4);
 
