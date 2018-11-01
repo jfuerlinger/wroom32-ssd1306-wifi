@@ -3,12 +3,14 @@
 #include <WiFi.h>
 
 #include "WifiManager.h"
+#include "ITracingService.h"
 
 #include "credentials.h"
 
 
 WifiManager::WifiManager(ITracingService* tracingService) {
-    WifiManager::tracingService = tracingService;
+    _tracingService = tracingService;
+    _wifiClient = new WifiClient();
 }
 
 

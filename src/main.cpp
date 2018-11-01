@@ -5,6 +5,8 @@
   based on https://github.com/LilyGO/higrowopen/tree/master/HiGrowEsp32
 */
 
+#include <WiFi.h>
+
 #include <PubSubClient.h>
 #include "DHT.h"
 #include "credentials.h"
